@@ -21,3 +21,9 @@
 
 ## ライブラリ
 * Backbone.js（underscore.js, jQuery）
+
+## つまったとこ
+* view の `template()` の引数に何渡すか → modelのオブジェクトを渡す
+* TasksView の render() で `collection` をループさせる
+* TasksView の render() のコンテクストに `this` を渡す とは
+* view の render() の `return this;` → チェーンメソッドを使うため？
